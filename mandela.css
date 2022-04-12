@@ -1,0 +1,148 @@
+html{
+	font-size: 12px;
+} 
+
+body {
+	font-size: 18px;
+	background: lightgoldenrodyellow;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2{
+	font-size: 2.5rem;
+	font-style: underline;
+}
+p {
+	margin-left:1em;
+}
+
+h3{
+	font-family: monospace;
+	color: darkred;
+}
+
+#main {
+
+}
+
+#heading{
+	text-align: center;
+}
+
+#title{
+	font-family: helvetica;
+}
+
+#sub-title{
+}
+
+#img-div{
+}
+
+#image {
+	box-shadow: 10px 8px 10px 3px gray;
+	
+}
+
+#image:hover {
+	transform: scale(1.03);
+}
+
+img {
+	display: block;
+	margin:8px auto;
+	max-width: 100%;
+}
+
+#img-caption{
+	font-style: italic;
+	font-size: .9em;
+}
+
+#tribute-info{
+	background: lightgray;
+	padding: 1em;
+}
+
+#tribute-page {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+#image-div2{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	max-width: 60rem;
+}
+
+#end-info {
+	font-size: .8em;
+	font-family: ;
+}
+
+#gallery {
+	display: flex;
+}
+
+#image3 {
+	display: flex;
+	width: 100%;
+}
+
+#btn-home {
+	display: block;
+	margin: 0 auto;
+	background: lightgray;
+	border-radius: .4em;
+	padding: .4em;
+	margin-bottom: 3em;
+	max-width: 7em;
+	text-align: center;
+}
+
+#btn-home:hover{
+	cursor: pointer;
+	background: lightcoral;
+	transform: scale(1.1);
+}
+#btn-text{
+	text-decoration: none;
+	color: darkred
+}
+
+#creator {
+	margin: 1em}
+
+@media (max-width: 460px) {
+	#image-div2{
+		width: 100%;
+	}
+	#tribute-page {
+		width: 95%;
+	}
+}
+@media (max-width: 700px){
+	#gallery{
+		display: block;
+	}
+	#image {
+		width: 80%;
+		
+	}
+}
+@media (min-width: 700px) {
+	#image2 {
+		width: 100%;
+		max-width: 45em;
+	}
+	#image6{
+	display: flex;
+	min-width: 120%;
+	margin-left: -3em;
+}
+}
